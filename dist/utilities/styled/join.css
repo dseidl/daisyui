@@ -1,0 +1,10 @@
+.join.join-vertical > :where(*:not(:first-child)) {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -1px
+}
+.join.join-horizontal > :where(*:not(:first-child)) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-inline-start: -1px
+}
